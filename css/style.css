@@ -1,0 +1,33 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clubs {
+    background-color: rgb(235, 105, 11);
+}
+.burger{
+    height: 10vh;
+    width: 10vh;
+    border: white solid 4px;
+    cursor: pointer;
+
+}
+.logo{
+    height: 20%;
+}
+.lineBurger{
+    width: 90%;
+    border: white solid 1px;
+}
+.hero {
+
+    background-image: url("../images/heroSection-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 180% ;
+}
+.image{
+
+
+}
