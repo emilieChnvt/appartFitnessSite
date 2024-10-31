@@ -20,7 +20,7 @@ html, body{
 
 .hero {
 
-    height: 100vh;
+    height: 110vh;
     background-image: url("../images/heroSection-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -30,4 +30,29 @@ html, body{
 .gros{
     font-size: 90px;
     width: 60%;
+}
+.image1{
+    background-image: url("../images/1.jpg");
+}
+.image2{
+    background-image: url("../images/2.jpg");
+}
+.image3{
+    background-image: url("../images/3.png");
+}
+.image4{
+    background-image: url("../images/4.png");
+}
+
+.image{
+    height:30vh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.padding{
+    padding-right: 9em;
+    padding-left: 9em;
 }
