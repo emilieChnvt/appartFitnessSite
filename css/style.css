@@ -2,6 +2,7 @@ html, body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #dddddd;
 }
 .clubs {
     background-color: rgb(235, 105, 11);
@@ -43,7 +44,10 @@ html, body{
 .image4{
     background-image: url("../images/4.png");
 }
+.imagePetite{
+    width:30vh;
 
+}
 .image{
     height:30vh;
 
@@ -56,3 +60,16 @@ html, body{
     padding-right: 9em;
     padding-left: 9em;
 }
+.padding1{
+    padding: 2em
+}
+.grand{
+    width: 50%;
+}
+.petit{
+     width: 45%;
+ }
+.moyen{
+    width: 55%;
+}
+
