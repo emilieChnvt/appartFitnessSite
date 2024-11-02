@@ -7,6 +7,15 @@ html, body{
 .clubs {
     background-color: rgb(235, 105, 11);
 }
+.backgroundDark {
+    background-color: rgb(56, 55, 58);
+}
+.img{
+    object-fit: cover;
+}
+.textOrange{
+    color: rgb(235, 105, 11);
+}
 .burger{
     height: 5vh;
     width: 5vh;
@@ -72,4 +81,9 @@ html, body{
 .moyen{
     width: 55%;
 }
+.title_h2 {
+    color: transparent;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #38373A;
 
+}
