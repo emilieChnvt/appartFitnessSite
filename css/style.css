@@ -31,7 +31,7 @@ html, body{
 
 .hero {
 
-    height: 110vh;
+    height: 120vh;
     background-image: url("../images/heroSection-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -40,7 +40,7 @@ html, body{
 }
 .gros{
     font-size: 90px;
-    width: 60%;
+    width: 70%;
 }
 .image1{
     background-image: url("../images/1.jpg");
@@ -83,14 +83,14 @@ html, body{
     width: 55%;
 }
 .title_h2 {
-        color: transparent;
-        -webkit-text-stroke-width: 1.5px;
-        -webkit-text-stroke-color: #38373A;
+    -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+    -webkit-text-stroke: 3px black;
+
 
 }
 .h2_white{
-    -webkit-text-stroke-width: 1px;
-    color: #fff;
+    -webkit-text-stroke: 3px white;
+    -webkit-text-fill-color: transparent;
 }
 .height{
     height: max-content;
