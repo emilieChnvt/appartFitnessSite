@@ -54,6 +54,18 @@ html, body{
 .image4{
     background-image: url("../images/4.png");
 }
+.image1bis{
+    background-image: url("../images/1bis.jpg");
+}
+.image2bis{
+    background-image: url("../images/2bis.jpg");
+}
+.image3bis{
+    background-image: url("../images/3bis.jpg");
+}
+.image4bis{
+    background-image: url("../images/4bis.jpg");
+}
 .imagePetite{
     width:30vh;
 
