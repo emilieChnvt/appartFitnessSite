@@ -110,3 +110,12 @@ html, body{
 .footer{
     height:20vh
 }
+.linkFooter{
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
