@@ -115,10 +115,7 @@ html, body{
     line-height: 25px;
 }
 
-
-#bouton-sticky {
-    position:fixed;
-    bottom:1%;
-    right:50%;
-    z-index:9999;
+.fixed-btn #fixed-btn{
+    position: fixed;
+    bottom:10px;
 }
