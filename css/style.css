@@ -119,3 +119,8 @@ html, body{
     position: fixed;
     bottom:10px;
 }
+.fixed-nav #fixed-nav{
+    position: fixed;
+
+    width: 100%;
+}
