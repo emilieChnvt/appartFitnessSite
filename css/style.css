@@ -121,6 +121,8 @@ html, body{
 }
 .fixed-nav #fixed-nav{
     position: fixed;
-
     width: 100%;
+}
+.dark{
+    background-color: rgb(56, 55, 58);
 }

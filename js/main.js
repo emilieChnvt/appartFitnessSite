@@ -15,6 +15,7 @@ window.addEventListener("scroll", fixedBtn);
 const nav = document.getElementById("fixed-nav");
 const containerGrosTitre = document.getElementById("containerGrosTitre");
 const topOfNav = nav.offsetTop;
+const topOfTitre = containerGrosTitre.offsetTop;
 
 function fixedNav(){
     if(window.scrollY >= topOfNav){
@@ -27,3 +28,12 @@ function fixedNav(){
 }
 window.addEventListener("scroll", fixedNav);
 
+function darkNav(){
+    if(window.scrollY >= topOfTitre){
+        nav.classList.add("dark");
+    }else{
+        nav.classList.remove("dark");
+    }
+}
+
+window.addEventListener("scroll", darkNav);
