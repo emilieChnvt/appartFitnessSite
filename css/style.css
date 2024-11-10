@@ -114,10 +114,14 @@ html, body{
     font-size: 12px;
     line-height: 25px;
 }
+#fixed-btn{
+    transition: all 1s ease-out;
+}
 
 .fixed-btn #fixed-btn{
     position: fixed;
     bottom:10px;
+    transition: all 1s ease-out;
 }
 .fixed-nav #fixed-nav{
     position: fixed;

@@ -3,13 +3,14 @@ const bottomOfBtn = button.offsetTop;
 
 
 function fixedBtn(){
-    if(window.scrollY >= (bottomOfBtn / 2)){
+    if(window.scrollY >= (bottomOfBtn / 4)*3){
         document.body.classList.add("fixed-btn");
     }else{
         document.body.classList.remove("fixed-btn");
     }
 }
 window.addEventListener("scroll", fixedBtn);
+
 
 
 const nav = document.getElementById("fixed-nav");
@@ -27,6 +28,9 @@ function fixedNav(){
     }
 }
 window.addEventListener("scroll", fixedNav);
+
+
+
 
 function darkNav(){
     if(window.scrollY >= topOfTitre){
